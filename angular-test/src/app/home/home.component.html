@@ -1,0 +1,16 @@
+<div class="columns">
+ <div class="column" *ngFor="let user of users">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{user.name}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{user.role}}</h6>
+          <p class="card-text">{{user.email}}</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+ </div>
+
+</div>
+
+
